@@ -68,7 +68,7 @@ const Features = () => {
                     <div className="text-left mt-5 text-lg lg:text-2xl font-semibold">Booking Dimana & Kapan Saja</div>
                     <div className="text-left text-sm lg:text-base tracking-wide leading-6 font-thin lg:pt-5">Berikan penilaian & ulasan kualitas layanan kami. Dapatkan point dan tukarkan dengan berbagai penawaran menarik!</div>
 
-                    <div className="pt-4 flex flex-col gap-3">
+                    <div className="pt-4 flex flex-col gap-3 pb-5">
                         <div className="flex gap-3">
                             <div className="grid place-content-center lg:text-lg">
                                 <FaCheckCircle className="text-red-700 text-md" />
@@ -87,10 +87,7 @@ const Features = () => {
                             </div>
                             <div className="text-sm font-semibold lg:text-lg">Extra bonus redeemable points (soon)</div>
                         </div>
-
                     </div>
-
-
                 </div>
             </div>
 
