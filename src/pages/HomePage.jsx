@@ -1,25 +1,32 @@
+import Navbar from "../components/Navbar"
+import NavbarDekstop from "../components/NavbarDekstop"
+import Footer from "../components/Footer"
+import Banner from "../components/HomePage/Banner";
+import LayananKami from "../components/HomePage/LayananKami";
+import ArmadaKami from "../components/HomePage/ArmadaKami";
+import Features from "../components/HomePage/Features";
+import Benefits from "../components/HomePage/Benefits";
+import Peta from "../components/HomePage/Peta";
+import Kemitraan from "../components/HomePage/Kemitraan";
+import Carousel from "../components/HomePage/Carousel";
 
-import logo from '../logo.svg';
-import '../App.css';
-const Landing = () => {
+
+const HomePage = () => {
     return (
-        <div className="App">
-            <header className="App-header">
-                <img src={logo} className="App-logo" alt="logo" />
-                <p>
-                    Edit <code>src/App.js</code> and save to reload.
-                </p>
-                <a
-                    className="App-link"
-                    href="https://reactjs.org"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Learn React
-                </a>
-            </header>
+        <div >
+            <Navbar />
+            <NavbarDekstop />
+            <Banner />
+            <LayananKami />
+            <ArmadaKami />
+            <Features />
+            <Benefits />
+            <Peta />
+            <Kemitraan />
+            <Carousel />
+            <Footer />
         </div>
     )
 }
 
-export default Landing
+export default HomePage
